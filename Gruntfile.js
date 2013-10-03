@@ -6,11 +6,11 @@ module.exports = function(grunt) {
 	grunt.initConfig({
 		watch: {
 			scripts: {
-			files: ['src/*.js'],
-			tasks: ['less'],
-			options: {
-				spawn: false,
-			},
+				files: ['src/*.js'],
+				tasks: ['less'],
+				options: {
+					spawn: false,
+				},
 			},
 		}
 
