@@ -1,6 +1,6 @@
 body {
 	text-align :center;
-	background: url('../images/textured_paper.png') repeat;
+	background: url('../images/irongrip.png') repeat;
 	font-family:  "proxima-nova", "Helvetica Neue", Helvetica, sans-serif
 }
 
@@ -10,22 +10,70 @@ body {
 	text-shadow: 1px 1px 1px #000;
 	font-size: 18pt;
 }
-#header {
-	background-image: url(../images/avatar.jpg);
-	background-repeat: no-repeat;
-	padding: 50px;
-	width: 300px;
-	height: 300px;
-	margin-left: 500px;
-	text-align: center;
-	letter-spacing: 3px;
-	border-radius: 90px;
-	box-shadow: 5px 5px 3px #000000;
-	margin-top : 150px;
 
+@media screen {
+	#header {
+		background-image: url(../images/avatar.jpg);
+		background-repeat: no-repeat;
+		padding: 50px;
+		width: 300px;
+		height: 300px;
+		margin-left: 500px;
+		text-align: center;
+		letter-spacing: 3px;
+		border-radius: 90px;
+		box-shadow: 5px 5px 3px #000000;
+		margin-top : 150px;
+		display: block;
+		text-decoration: none;
+		color : black;
+	}
+}
+
+@media screen and (max-width: 768px) {
+     #header {
+		margin-left: 200px;
+	}
+
+}
+
+@media screen and (max-width: 408px) {
+     #header {
+     	margin-top : 50px;
+		margin-left: 50px;
+		width: 150px;
+		background: none;
+		height: 500px;
+		color : white;
+	}
+
+	#header:hover{
+     	box-shadow: 5px 5px 3px grey;
+
+	}
+
+}
+
+
+#header:hover {
+	opacity: 0.9;
 }
 
 important {
 	color: #AF7E40;
 	font-weight: bold;
+}
+
+#contact {
+		margin-top: 28px;
+	display: block;
+
+}
+
+a {
+	text-decoration: none;
+	color : black;
+}
+a:hover {
+	color : #235C5C;
 }
