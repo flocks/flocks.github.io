@@ -25,12 +25,22 @@ body {
 #workSection {
 	background: url('../images/darklight.png') repeat;
 	text-align: center;
-	text-align: justify;
 	letter-spacing: 2px;
 }
 #workSection p  {
-	padding : 100px;
+	padding : 0px;
+	margin-bottom: 80px;
 }
+
+#workSection span  {
+	font-size : 18pt;
+	letter-spacing: 5px;
+}
+
+#workSection img {
+	max-height: 100px;
+}
+
 
 #workSection span {
 	display: block;
@@ -65,7 +75,7 @@ body {
 		padding: 50px;
 		width: 300px;
 		height: 300px;
-		margin-left: 33%;
+		margin-left: 37%;
 		text-align: center;
 		letter-spacing: 3px;
 		border-radius: 90px;
@@ -78,6 +88,13 @@ body {
 
 .section{
     position: relative;
+}
+
+@media screen and (max-width: 700px) {
+     #header {
+ 		margin-left: 5%;
+	}
+
 }
 
 @media screen and (max-width: 408px) {
