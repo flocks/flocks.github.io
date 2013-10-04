@@ -40,6 +40,7 @@
 			<span>I take power of NodeJS's asynchronous I/O to build realtime statistics using socket.io</span>
 		</p>
 
+		<a href="#" id="gotoprojects"><img src="app/images/arrowblack.png" /></a>
 		</div>
 
 		<div class="section" id="projectsSection">
@@ -92,7 +93,11 @@
 	</body>
 		<script type="text/javascript">
 			$('#header').click(function() {
-				 $('body').animate({scrollTop: $('#workSection').offset().top}, 500);
+				 $('body').animate({scrollTop: $('#workSection').offset().top + 70}, 500);
+			});
+
+			$('#gotoprojects').click(function() {
+				$('body').animate({scrollTop: $('#projectsSection').offset().top }, 500);
 			});
 		</script>
 </html>
