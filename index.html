@@ -89,6 +89,8 @@
 					<li>Github</li>
 				</ul>
 			</p>
+
+			<a href="#" id="backtotop">Bring me up !</a>
 		</div>
 		</div>
 
@@ -105,6 +107,10 @@
 
 			$('#gotocontact').click(function() {
 				$('body').animate({scrollTop : $('#contactSection').offset().top + 70}, 500);
-			})
+			});
+
+			$('#backtotop').click(function() {
+				$('body').animate({scrollTop : $('#headerSection').offset().top}, 500);
+			});
 		</script>
 </html>
