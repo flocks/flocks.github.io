@@ -66,8 +66,20 @@ body {
 	padding: 100px;
 	letter-spacing: 2px;
 	color : white;
+	font-size: 15pt;
 }
 
+#projectsSection span {
+	display : block;
+	margin-top : 30px;
+}
+
+#projectsSection a {
+	color : #F56E6E;
+}
+#projectsSection a:hover {
+	color : grey;
+}
 @media screen {
 	#header {
 		background-image: url(../images/avatar.jpg);
