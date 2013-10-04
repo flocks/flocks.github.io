@@ -1,0 +1,103 @@
+<html>
+	<head>
+		<title>flocks.github.io</title>
+		<link rel="stylesheet" type="text/css" href="app/styles/default.css" />
+		<script src="app/lib/jquery.js"></script>
+
+	
+	</head>
+
+	<body>
+
+		<div class="section" id="headerSection">
+
+		<div id="header">
+			 <h1 id="title">Front-end Engineer - France </h1>
+			 <p class="desc">French front-end engineer, working with <important>AngularJS</important>, <important>BackboneJS</important> and <important>NodeJS</important> at Teads.tv. Trying to make the web smoother</p>
+
+			 <span id="mainProjects">Writer of PommeJS and other stuff on <a href="http://github.com/flocks">github</a></span>
+		
+			 <span id="contact"><img src='app/images/github.png' /></span>
+		</div>
+
+		</div>
+
+		<div class="section" id="workSection">
+			
+		<p>
+			I work at <a href="#">Teads.tv</a> a french startup disrupting the online ads market.
+		</p>
+		<p class="techno">
+			<img src="app/images/gruntjs-logo.png" />
+			<span>GruntJS makes my dev workflow easier and faster.</span>
+		</p>
+		<p class="techno">
+			<img src="app/images/angular.png" />
+			<span>I enjoy AngularJS power by building single page web app.</span>
+		</p>
+		<p class="techno">
+			<img src="app/images/node.png" />
+			<span>I take power of NodeJS's asynchronous I/O to build realtime statistics using socket.io</span>
+		</p>
+
+		<a href="#" id="gotoprojects"><img src="app/images/arrowblack.png" /></a>
+		</div>
+
+		<div class="section" id="projectsSection">
+			<img src="app/images/githubgrey.png" />
+			<p>I wish I had more time to spend on side projects. But I do my best to commit myself to the opensource world.
+
+			I'm currently building a <important>BackboneJS</important> Framework which takes the best of <important>Cocoa Framework</important> to enable developers to quickly build apps prototypes. Work is in progress and you want more info, rendez-vous <a href="http://flocks.github.io/PommeJS">here</a>.
+		</p>
+
+		<p id="myProjects">
+			On my github accounts you will see some useless repo, and a few more useful.
+
+			<span><a href="http://flocks.github.io/TimerJS">TimerJS</a> lets you give a timeout limit to your callbacks. Pretty useful when ...</span>
+			<span><a href="http://flocks.github.io/Parcours.js/">ParcoursJS</a> Browse your js objects without the hassle !</span>
+			<span><a href="http://flocks.github.io/HoldemJS">HoldemJS</a> HoldemJS is draft. It's a nodeJS module for computing equities at Texas Holdem Poker.
+			 When I have the time and the motivation I make some commits on it. </span>
+
+			<span><a href="https://github.com/flocks/TwircBot">TwircBot</a> Stay tunned to twitter on irc !</span>
+			<span><a href="http://cornelien.com">Cornelien</a> I wrote in Backbone and with Parse as a backend. It was a learning project but it's still pretty fun.</span>
+
+
+
+		</p>
+		</div>
+
+		<div class="section" id="contactSection">
+			<div id="contentContact">
+			<h2>Florent Teissier</h2>
+			<p id="presentation">My name is Florent Teissier and I work at <a href="http://teads.tv">Teads.tv</a> in Montpellier, south of France. I work a lot with Javascript.</p>
+			<hr>
+			<p>I'm 24 years old. I graduated from Polytech'Montpellier with an Engineer degree in 2012. During my 2 last years of studies, <a href="#">
+				Spacenick</a> and I co-founded a startup called deegr.com. It was a recommendation engine for movies. Unfortunately, the site is not live
+				anymore. Despite It was a failure in financial terms, It was a great experience in term of hard-working and improving dev skills.
+
+				<br />	<br />I work now at Teads.tv with awesome developers and innovatives technologies. </p>
+
+				<hr>
+			<p>
+				You can find me on 
+				<ul><li>Twitter</li>
+					<li>Facebook</li>
+					<li>Mail</li>
+					<li>Github</li>
+				</ul>
+			</p>
+		</div>
+		</div>
+
+
+	</body>
+		<script type="text/javascript">
+			$('#header').click(function() {
+				 $('body').animate({scrollTop: $('#workSection').offset().top + 70}, 500);
+			});
+
+			$('#gotoprojects').click(function() {
+				$('body').animate({scrollTop: $('#projectsSection').offset().top }, 500);
+			});
+		</script>
+</html>

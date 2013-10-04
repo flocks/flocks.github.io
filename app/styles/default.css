@@ -1,0 +1,183 @@
+body {
+	text-align :center;
+	font-family:  "proxima-nova", "Helvetica Neue", Helvetica, sans-serif;
+		margin : 0;
+
+}
+
+hr {
+	width: 50px;
+	border: 1px dotted #000;
+	margin-bottom: 90px;
+	margin-top: 50px;
+}
+
+#title {
+	margin-top :50px;
+	color: #AC5419;
+	text-shadow: 1px 1px 1px #000;
+	font-size: 18pt;
+}
+
+.section {
+	width: 100%;
+	height: 100%;
+	padding-top : 100px;
+
+}
+#headerSection {
+	background: url('../images/irongrip.png') repeat;
+}
+
+#workSection {
+	background: url('../images/darklight.png') repeat;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+#contactSection {
+	background: url('../images/sandpaper.png') repeat;
+	text-align: justify;
+	letter-spacing: 2px;
+	
+}
+
+#contactSection h2 {
+	font-size: 72px;
+	letter-spacing: -1px;
+}
+
+#presentation {
+	color : #5A5656;
+	font-size:  28px;
+}
+
+#contentContact {
+	padding-right : 250px;
+	padding-left : 250px;
+}
+
+	
+#workSection p  {
+	padding : 0px;
+	margin-bottom: 80px;
+}
+
+#workSection span  {
+	font-size : 18pt;
+	letter-spacing: 5px;
+}
+
+#workSection img {
+	max-height: 100px;
+}
+
+
+#workSection span {
+	display: block;
+	text-align: center;
+	margin-top : 50px;
+}
+
+#workSection button {
+	border : 1px solid #000;
+	padding: 15px;
+	margin: 30px;
+	width: 200px;
+}
+
+#projectsSection {
+	background: url('../images/fabric.png') repeat;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+#projectsSection p {
+	padding: 100px;
+	letter-spacing: 2px;
+	color : white;
+	font-size: 15pt;
+	padding-bottom: 50px;
+}
+
+#projectsSection span {
+	display : block;
+	margin-top : 30px;
+}
+
+#projectsSection a {
+	color : #F56E6E;
+}
+#projectsSection a:hover {
+	color : grey;
+}
+
+@media screen {
+	#header {
+		background-image: url(../images/avatar.jpg);
+		background-repeat: no-repeat;
+		padding: 50px;
+		width: 300px;
+		height: 300px;
+		margin-left: 37%;
+		text-align: center;
+		letter-spacing: 3px;
+		border-radius: 90px;
+		box-shadow: 5px 5px 3px #000000;
+		display: block;
+		text-decoration: none;
+		color : black;
+	}
+}
+
+.section{
+    position: relative;
+}
+
+@media screen and (max-width: 700px) {
+     #header {
+ 		margin-left: 5%;
+	}
+
+}
+
+@media screen and (max-width: 408px) {
+     #header {
+     	margin-top : 50px;
+		margin-left: 50px;
+		width: 150px;
+		background: none;
+		height: 500px;
+		color : white;
+	}
+
+	#header:hover{
+     	box-shadow: 5px 5px 3px grey;
+
+	}
+
+}
+
+
+#header:hover {
+	opacity: 0.9;
+}
+
+important {
+	color: #AF7E40;
+	font-weight: bold;
+}
+
+#contact {
+		margin-top: 28px;
+	display: block;
+
+}
+
+a {
+	text-decoration: none;
+	color : black;
+}
+a:hover {
+	color : #235C5C;
+}
