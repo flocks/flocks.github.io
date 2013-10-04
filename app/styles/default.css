@@ -8,8 +8,8 @@ body {
 hr {
 	width: 50px;
 	border: 1px dotted #000;
-	margin-bottom: 90px;
-	margin-top: 50px;
+	margin-bottom: 5%;
+	margin-top: 30px;
 }
 
 #title {
@@ -22,11 +22,12 @@ hr {
 .section {
 	width: 100%;
 	height: 100%;
-	padding-top : 100px;
+	display: table;
 
 }
 #headerSection {
 	background: url('../images/irongrip.png') repeat;
+	padding-top : 11%;
 }
 
 #workSection {
@@ -53,14 +54,14 @@ hr {
 }
 
 #contentContact {
-	padding-right : 250px;
-	padding-left : 250px;
+	padding-right : 100px;
+	padding-left : 100px;
 }
 
 	
 #workSection p  {
 	padding : 0px;
-	margin-bottom: 80px;
+	margin-bottom: 4%;
 }
 
 #workSection span  {
@@ -69,14 +70,14 @@ hr {
 }
 
 #workSection img {
-	max-height: 100px;
+	max-height: 80px;
 }
 
 
 #workSection span {
 	display: block;
 	text-align: center;
-	margin-top : 50px;
+	margin-top : 2%;
 }
 
 #workSection button {
@@ -89,15 +90,14 @@ hr {
 #projectsSection {
 	background: url('../images/fabric.png') repeat;
 	text-align: center;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 }
 
 #projectsSection p {
-	padding: 100px;
+	padding: 10px;
 	letter-spacing: 2px;
 	color : white;
 	font-size: 15pt;
-	padding-bottom: 18px;
 }
 
 #projectsSection span {
@@ -110,6 +110,24 @@ hr {
 }
 #projectsSection a:hover {
 	color : grey;
+}
+
+#myProjects {
+	padding-top : 3%;
+	text-align: justify;
+	padding-left: 100px;
+	padding-right: 100px;
+	color : white;
+
+}
+
+#myProjects ul {
+	list-style-type: none;
+	padding : 2%;
+}
+
+#myProjects ul li {
+	padding : 1%;
 }
 
 @media screen {
@@ -128,6 +146,10 @@ hr {
 		text-decoration: none;
 		color : black;
 	}
+
+	.section {
+		padding-top : 10px;
+	}
 }
 
 .section{
@@ -137,6 +159,11 @@ hr {
 @media screen and (max-width: 700px) {
      #header {
  		margin-left: 5%;
+	}
+
+	.section {
+		padding-top : 20px;
+
 	}
 
 }
@@ -176,7 +203,7 @@ important {
 
 #contactSection ul {
 	list-style-type: none;
-	margin-left : 29%;
+	margin-left : 24%;
 }
 #contactSection li {
 	display: inline;
@@ -200,5 +227,10 @@ a:hover {
 }
 
 #backtotop {
-	margin-top : 100px;
+	margin-top : 8px;
+	display: block;
+}
+
+#bringuppic {
+	margin-left : 28px;
 }
