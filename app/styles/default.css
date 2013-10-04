@@ -110,6 +110,7 @@ hr {
 #projectsSection a:hover {
 	color : grey;
 }
+
 @media screen {
 	#header {
 		background-image: url(../images/avatar.jpg);
