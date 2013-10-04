@@ -202,7 +202,10 @@ important {
 #contact {
 		margin-top: 28px;
 	display: block;
+}
 
+#contact img {
+	margin-left : 4%;
 }
 
 #contactSection ul {
