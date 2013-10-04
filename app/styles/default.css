@@ -5,6 +5,13 @@ body {
 
 }
 
+hr {
+	width: 50px;
+	border: 1px dotted #000;
+	margin-bottom: 90px;
+	margin-top: 50px;
+}
+
 #title {
 	margin-top :50px;
 	color: #AC5419;
@@ -30,9 +37,26 @@ body {
 
 #contactSection {
 	background: url('../images/sandpaper.png') repeat;
-	text-align: center;
+	text-align: justify;
 	letter-spacing: 2px;
+	
 }
+
+#contactSection h2 {
+	font-size: 72px;
+	letter-spacing: -1px;
+}
+
+#presentation {
+	color : #5A5656;
+	font-size:  28px;
+}
+
+#contentContact {
+	padding-right : 250px;
+	padding-left : 250px;
+}
+
 	
 #workSection p  {
 	padding : 0px;
