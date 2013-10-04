@@ -27,6 +27,13 @@ body {
 	text-align: center;
 	letter-spacing: 2px;
 }
+
+#contactSection {
+	background: url('../images/sandpaper.png') repeat;
+	text-align: center;
+	letter-spacing: 2px;
+}
+	
 #workSection p  {
 	padding : 0px;
 	margin-bottom: 80px;
