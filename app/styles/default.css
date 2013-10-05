@@ -93,7 +93,8 @@ hr {
 }
 
 #projectsSection p {
-	padding: 10px;
+	padding : 10px;
+	padding-bottom: 0px;
 	letter-spacing: 2px;
 	color : white;
 	font-size: 15pt;
@@ -101,18 +102,18 @@ hr {
 
 #projectsSection span {
 	display : block;
-	margin-top : 30px;
+	margin-top : 0px;
 }
 
 #projectsSection a {
-	color : #F56E6E;
+	color : #FFF;
 }
 #projectsSection a:hover {
 	color : grey;
 }
 
 #myProjects {
-	padding-top : 3%;
+	padding-top : 0%;
 	text-align: justify;
 	padding-left: 100px;
 	padding-right: 100px;
@@ -123,12 +124,13 @@ hr {
 #myProjects ul {
 	list-style-type: none;
 	padding : 2%;
+	padding-bottom: 0;
 }
 
 #myProjects ul li {
-	padding : 1%;
-	letter-spacing: 3px;
-	color : rgb(250, 196, 196);
+	padding: 2%;
+letter-spacing: 1px;
+color: rgb(184, 184, 184);
 
 }
 
@@ -206,6 +208,11 @@ important {
 
 #contact img {
 	margin-left : 4%;
+}
+
+#gotocontact img {
+	width: 80px;
+	height: 80px;
 }
 
 #contactSection ul {
