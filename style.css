@@ -42,6 +42,18 @@ strong {
 	vertical-align: top;
 	margin-top: 15px;
 	border-radius: 20px;
+	position: relative;
+}
+
+#info:before {
+	content : ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: -40px;
+	top: 15px;
+	border: 25px solid;
+	border-color: transparent black transparent transparent ; /*transparent transparent black; */
 }
 
 #avatar {
