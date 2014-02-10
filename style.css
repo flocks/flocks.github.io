@@ -91,10 +91,16 @@ strong {
 
 .experience {
 	background-color: #D3A94B;
+	transition-duration: 1s;
+
 }
 
 .hobbies {
 	background-color: #525383;
+}
+
+.experience:hover {
+	-webkit-transform: translate(60px, 400px);
 }
 
 #menu span:hover {
