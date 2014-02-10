@@ -1,0 +1,90 @@
+
+body {
+	background: url(blurbg.png) no-repeat center fixed;
+	-webkit-background-size: cover; /* pour Chrome et Safari */
+  	-moz-background-size: cover; /* pour Firefox */
+  	-o-background-size: cover; /* pour Opera */
+  	background-size: cover; /* version standardisée */
+  	font-family: 'Helvetica neue';
+
+}
+
+strong {
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+#contact {
+	list-style-type: none;
+}
+
+#contact li {
+	float:left;
+}
+#wrapper {
+	margin-top: 20px;
+	width: 100%;
+
+	margin-left:auto;
+	margin-right: auto;
+	text-align: center;
+
+}
+
+#info {
+	display: inline-block;
+	background-color: #000;
+	opacity: 0.6;
+	color: white;
+	padding: 20px;
+	text-align: justify;
+	font-size: 11pt;
+	vertical-align: top;
+	margin-top: 15px;
+	border-radius: 20px;
+}
+
+#avatar {
+	display: inline-block;
+}
+#avatar img {
+	height: 100px;
+	margin: 10px;
+	border-radius: 50%;
+}
+
+#menu {
+	margin-top: 20px;
+}
+
+
+
+#menu span {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 80px;
+	font-size: 8pt;
+	margin-right: 20px;
+	letter-spacing: 1px;
+	cursor: pointer;
+	color :#FFF;
+}
+
+.skillz {
+	background-color: #527E83;
+}
+
+.experience {
+	background-color: #D3A94B;
+}
+
+.hobbies {
+	background-color: #525383;
+}
+
+#menu span:hover {
+	opacity: 0.7;
+}
