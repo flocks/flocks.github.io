@@ -1,6 +1,6 @@
 
 body {
-	background: url(blurbg.png) no-repeat center fixed;
+	background: url(../assets/images/blurbg.png) no-repeat center fixed;
 	-webkit-background-size: cover; /* pour Chrome et Safari */
   	-moz-background-size: cover; /* pour Firefox */
   	-o-background-size: cover; /* pour Opera */
