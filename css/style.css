@@ -100,7 +100,7 @@ strong {
 }
 
 .experience:hover {
-	-webkit-transform: translate(60px, 400px);
+	-webkit-transform: translate(100px, 400px);
 }
 
 #menu span:hover {
