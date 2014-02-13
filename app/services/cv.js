@@ -1,0 +1,21 @@
+angular.module('app')
+	.value('cv',{
+   "cv":[
+      {
+         "id":1,
+         "name":"Skills",
+         "tab":[
+            {
+               "id":1,
+               "title":"javascript",
+               "desc":"description"
+            },
+            {
+               "id":2,
+               "title":"css",
+               "desc":"lalala"
+            }
+         ]
+      }
+   ]
+});
