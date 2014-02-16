@@ -1,6 +1,5 @@
 angular.module('app')
-	.value('cv',{
-   "cv":[
+	.value('cv',[
       {
          "id":1,
          "name":"Skills",
@@ -16,6 +15,21 @@ angular.module('app')
                "desc":"lalala"
             }
          ]
+      },
+      {
+         "id":2,
+         "name":"School",
+         "tab": [{
+            "id":1,
+            "title": "formation",
+            "desc": "test desc"
+         }]
+      },
+      {
+         "id": 3,
+         "name": "Hobbies",
+         "tab": [{
+            
+         }]
       }
-   ]
-});
+   ]);

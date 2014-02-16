@@ -1,0 +1,7 @@
+{
+  "name": "Flocks.github.io",
+  "version": "0.0.1",
+  "devDependencies": {
+    "connect": "~2.13.0"
+  }
+}

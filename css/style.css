@@ -83,19 +83,20 @@ strong {
 	letter-spacing: 1px;
 	cursor: pointer;
 	color :#FFF;
+	transition-duration: 1s;
 }
 
-.skillz {
+.bubble1 {
 	background-color: #527E83;
 }
 
-.experience {
+.bubble3 {
 	background-color: #D3A94B;
-	transition-duration: 1s;
+	
 
 }
 
-.hobbies {
+.bubble2 {
 	background-color: #525383;
 }
 
