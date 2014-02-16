@@ -1,1 +1,10 @@
-<span class="bubble{{item.id}}">{{item.name}}</span>
+<div style="display:inline;">
+	<span class="bubble bubble{{item.id}} satellite" ng-repeat="satellite in item.satellites" ng-mouseenter="hover(satellite.id)">{{satellite.title}}</span>
+
+	<span class="bubble bubble{{item.id}} center" ng-click="handleClick()">{{item.name}}</span>
+
+	<div class="infoDetail" ng-if="shown">
+
+		<span>{{info}}</span>
+	</div>
+</div>

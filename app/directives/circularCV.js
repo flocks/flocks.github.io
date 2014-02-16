@@ -1,7 +1,7 @@
 angular.module('app')
 	.directive('circularcv', function() {
 		return {
-			restrict: 'E',
+			restrict: 'EA',
 			scope :{
 				cv : '='
 			},
@@ -14,7 +14,7 @@ angular.module('app')
 					var findIndex = _.findIndex($scope.cv, {id : id});
 					var middle = Math.ceil(nbPlanetes / 2);
 					
-					return (middle - (findIndex+1)) * 100;
+					return (middle - (findIndex+1)) * (width + 20);
 				};
 			},
 			link: function(scope, element, attrs) {
