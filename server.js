@@ -1,6 +1,6 @@
 var connect = require('connect'),
     http = require('http'),
-    directory = '/Users/flocks/flocks.github.io';
+    directory = '/Users/fteissier/flocks.github.io';
 
 connect()
     .use(connect.static(directory))

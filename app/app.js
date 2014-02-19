@@ -10,7 +10,7 @@ angular.module('app')
 			"satellites" : [{
 				"id": 1,
 				"title": "AngularJS",
-				"desc": "I've been working with angularJS for almost 2 years now"
+				"desc": "I've been working with angularJS for almost 2 years now een working with angularJS for almost 2 years noween working with angularJS for almost 2 years now"
 			},{
 				"id": 2,
 				"title": "css",

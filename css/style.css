@@ -75,34 +75,58 @@ strong {
 
 .infoDetail {
 	position: absolute;
-	top: 50%;
+	/*top: 50%;*/
 	left: 50%;
 	width: 300px;
 	height: 300px;
 	border-radius: 50%;
 	margin-top: -115;
 	margin-left: -100;
-	background-color: black;
-	opacity: 0.7;
+	background-size: cover;
+	opacity: 1;
 	border: 5px solid white;
 	color:white;
-
 	text-align: center;
 	font-size: 11pt;
-
-	 transition: all 0.4s ease-in-out;
+	transition: all 2s ease-in-out;
 }
+
+.center {
+	-webkit-transform: translateY(350px);				
+}
+
+.infoDetailBG {
+	width: 100%;
+	height: 100%;
+	background: url(../assets/images/avatar.jpeg);
+	background-size: cover;
+	border-radius: 50%;
+
+}
+
+.blur {
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);
+}
+
+
 .infoDetail span {
-	line-height: normal;
-    display:inline-block;
-    vertical-align: middle;
-    padding-top: 120px;
-
+	position: absolute;
+	left: 5px;
+	top: 30px;
+	z-index: 99999999;
+	text-align: justify;
+	padding: 50px;
+	color: #FFF;
 }
+
 #menu .bubble {
 	display: block;
 	position: absolute;
-	top: 50%; left: 50%;
+	top: 350px; left: 50%;
 	width: 80px;
 	height: 80px;
 	border-radius: 50%;
@@ -114,20 +138,39 @@ strong {
 	cursor: pointer;
 	color :#FFF;
 	transition-duration: 1s;
+	background-color: #527E83;
+
 }
 
 .bubble1 {
-	background-color: #527E83;
+	background-color: #527E83 !important;
 }
 
 .bubble3 {
-	background-color: #D3A94B;
-	
-
+	background-color: #D3A94B !important;
 }
 
 .bubble2 {
-	background-color: #525383;
+	background-color: #525383 !important;
+}
+.bubble4 {
+	background-color: #DE9252 !important;
+}
+
+.bubble5 {
+	background-color: #DA6F94 !important;
+}
+
+.bubble6 {
+	background-color: #974BB2 !important;
+}
+
+.bubble7 {
+	background-color: #DA6F94 !important;
+}
+
+.bubble0 {
+	background-color: #DD3357 !important;
 }
 
 .experience:hover {
